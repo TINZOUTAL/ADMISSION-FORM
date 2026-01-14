@@ -170,7 +170,7 @@ async function generatePDF() {
         `Course: ${course.value}\n` +
         `Mobile: ${mobile.value}`;
 
-    let phone = "+91 8974907522"; // Replace with your WhatsApp number
+    let phone = "+918974907522"; // Replace with your WhatsApp number
     let url = `https://wa.me/${phone}?text=${encodeURIComponent(whatsappText)}`;
 
     window.open(url, "_blank");
